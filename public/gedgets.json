@@ -1,0 +1,123 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/2jSy7vR/Dell-XPS-13.jpg",
+    "category": "Laptop",
+    "price": 1200,
+    "description": "A compact and powerful laptop with a stunning display.",
+    "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.3-inch Display"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "MacBook Pro 14",
+    "product_image": "https://i.ibb.co.com/6wX9TG0/Mac-Book-Pro-14.webp",
+    "category": "Laptop",
+    "price": 1800,
+    "description": "Apple's high-performance laptop with M1 Pro chip.",
+    "Specification": ["Apple M1 Pro", "16GB RAM", "1TB SSD", "14-inch Retina Display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 3,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/Tkkg2pJ/HP-Spectre-x360.jpg",
+    "category": "Laptop",
+    "price": 1500,
+    "description": "Versatile 2-in-1 laptop with a 4K touchscreen.",
+    "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.5-inch 4K UHD Display"],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/kQH6Grp/i-Phone-14.jpg",
+    "category": "Mobile",
+    "price": 999,
+    "description": "Apple's latest smartphone with improved camera and battery life.",
+    "Specification": ["A16 Bionic chip", "128GB Storage", "6.1-inch OLED Display", "5G"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 5,
+    "product_title": "Samsung Galaxy S22",
+    "product_image": "https://i.ibb.co.com/QcYFrwP/Samsung-Galaxy-S22.jpg",
+    "category": "Mobile",
+    "price": 850,
+    "description": "Flagship Android phone with a powerful processor and camera.",
+    "Specification": ["Snapdragon 8 Gen 1", "256GB Storage", "6.2-inch AMOLED Display", "5G"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 6,
+    "product_title": "Google Pixel 7",
+    "product_image": "https://i.ibb.co.com/89cfVYc/Google-Pixel-7.jpg",
+    "category": "Mobile",
+    "price": 700,
+    "description": "Pure Android experience with excellent AI-powered camera.",
+    "Specification": ["Google Tensor", "128GB Storage", "6.4-inch OLED Display", "5G"],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 7,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://i.ibb.co.com/Cv4Ck52/Apple-Watch-Series-8.jpg",
+    "category": "Smartwatch",
+    "price": 400,
+    "description": "Advanced health tracking smartwatch with always-on display.",
+    "Specification": ["GPS", "Blood Oxygen Monitoring", "ECG", "Always-on Retina Display"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 8,
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://i.ibb.co.com/5rgr5nb/Samsung-Galaxy-Watch-5.jpg",
+    "category": "Smartwatch",
+    "price": 350,
+    "description": "A smartwatch with great fitness and health features.",
+    "Specification": ["GPS", "Body Composition Analysis", "AMOLED Display", "Wear OS"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+      "product_id": 9,
+      "product_title": "Wireless Noise-Cancelling Headphones",
+      "product_image": "https://i.ibb.co.com/MSB2P5J/Wireless-Noise-Cancelling-Headphones.jpg",
+      "category": "gadgets",
+      "price": 199.99,
+      "description": "Premium wireless noise-cancelling headphones with long battery life and deep bass sound.",
+      "specification": [
+        "Battery life: 30 hours",
+        "Bluetooth 5.0",
+        "Noise cancellation: Active",
+        "Weight: 250g",
+        "Color: Black"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id":10,
+      "product_title": "Smart Fitness Tracker",
+      "product_image": "https://i.ibb.co.com/jZKn2wK/Smart-Fitness-Tracker.jpg",
+      "category": "gadgets",
+      "price": 49.99,
+      "description": "Track your daily activity, heart rate, and sleep with this lightweight fitness tracker.",
+      "specification": [
+        "Battery life: 7 days",
+        "Water resistance: 50m",
+        "Connectivity: Bluetooth",
+        "Color: Black, Blue, Pink"
+      ],
+      "availability": true,
+      "rating": 4.3
+    }
+]
