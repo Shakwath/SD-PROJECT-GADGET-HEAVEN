@@ -1,14 +1,15 @@
 import { NavLink } from "react-router-dom";
-import Cart from '../../assets/card.png'
-import favourite from '../../assets/favourite.png'
+import shoppingCart from '../../assets/shopping-cart.png'
+import love from '../../assets/love.png'
 
 
 const NavBar = () => {
 
     const links = <>
-   <li><NavLink to="/">Home</NavLink></li>
-    <li><a>Statistics</a></li>
-    <li><a>Dashboard</a></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/Statistics">Statistics</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>   
     </>
     return (
         <div className="navbar bg-base-100">
@@ -43,11 +44,11 @@ const NavBar = () => {
   </div>
   <div className="navbar-end flex gap-4">
     <button className="bg-white rounded-full p-2">
-         <img className="w-6" src={Cart}/>
+         <img className="w-6" src={shoppingCart}/>
     </button>
 
     <button className="bg-white rounded-full p-2">
-         <img className="w-6" src={favourite}/>
+         <img className="w-6" src={love}/>
     </button>
   </div>
 </div>

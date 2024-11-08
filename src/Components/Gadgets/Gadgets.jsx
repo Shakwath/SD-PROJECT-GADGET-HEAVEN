@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Gadget from "../Gadget/Gadget";
-import './Gadets.css'
-
+import './Gadgets.css'
 
 const Gadgets = () => {
 
@@ -13,12 +12,12 @@ const Gadgets = () => {
     },[])
     
     return (
-        <div className="py-20">
-            <h1 className="text-4xl font-bold text-center">Explore Cutting-Edge Gadgets</h1>
+        <div className="py-20 space-y-14">
+            <h1 className="text-3xl font-bold">Explore Cutting-Edge Gadgets</h1>
             <div className="flex gap-6">
                 {/* menu  */}
                 <div className="border-2 p-5 flex flex-col gap-4 rounded-2xl h-fit">
-                    <button className="border-2 rounded-xl">All Product</button>
+                    <button className="btnClass">All Product</button>
                     <button>Laptops</button>
                     <button>Phones</button>
                     <button>Accessories</button>
