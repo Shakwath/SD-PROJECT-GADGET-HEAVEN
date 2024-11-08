@@ -1,8 +1,9 @@
 import Banner from "../Banner/Banner";
 import Gadgets from "../Gadgets/Gadgets";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Home = () => {
+
     useEffect(() => {
         document.title = "Home | Gadget-Haven";
       }, []);
@@ -11,8 +12,9 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Gadgets></Gadgets>
-        </div>
-    );
+
+    </div>
+  );
 };
 
 export default Home;
