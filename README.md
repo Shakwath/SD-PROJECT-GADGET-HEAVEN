@@ -11,9 +11,8 @@
 
  <h2>List of React Fundamental concepts used in the project</h2>
  <br />
-  01- JSX: JavaScript XML, the syntax extension for JavaScript, used for describing what the UI should look like.<br />
+  01- JSX: JavaScript XML, the syntax extension for JavaScript, used for describing what the UI should look like.
   <h3>Components:</h3>
-  <br />
   i- <b>Functional Components:</b> Stateless, lightweight functions that return JSX, often with hooks for state and lifecycle.<br />
   ii- <b>Class Components:</b> Older React components with more built-in lifecycle methods and state management.<br />
   iii-<b>Props:</b> Short for "properties," props are used to pass data from a parent component to a child component.<br />
