@@ -43,9 +43,8 @@ Lists and Keys: Rendering lists using .map() and providing unique keys for each 
     Be cautious with sensitive data, as local storage isn't encrypted.<br />
 
 <h2>5features of website/project</h2>
-<ol>
-1.Product Catalog with Detailed Descriptions
-2.User-Friendly Shopping Cart
-3.Secure Checkout Process
-4.Personalized User Experience
-5.Responsive Design for Optimal User Experience</ol>
+1.Product Catalog with Detailed Descriptions<br />
+2.User-Friendly Shopping Cart<br />
+3.Secure Checkout Process<br />
+4.Personalized User Experience<br />
+5.Responsive Design for Optimal User Experience<br />
