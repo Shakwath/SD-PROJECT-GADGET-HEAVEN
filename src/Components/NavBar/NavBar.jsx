@@ -3,6 +3,7 @@ import shoppingCart from '../../assets/shopping-cart.png'
 import love from '../../assets/love.png'
 
 
+
 const NavBar = () => {
 
     const links = <>
@@ -10,6 +11,7 @@ const NavBar = () => {
         <li><NavLink to="/Statistics">Statistics</NavLink></li>
         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>   
+        
     </>
     return (
         <div className="navbar bg-base-100">
