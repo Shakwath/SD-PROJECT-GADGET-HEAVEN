@@ -85,7 +85,7 @@ export default function Dashboard() {
       </dialog>
       <div className="p-5 text-white bg-[#9538E2] flex flex-col  pt-[50px] pb-[80px] relative items-center justify-center">
         <h2 className="text-[32px] font-bold">Dashboard</h2>
-        <p className="max-w-[796px] text-center text-[16px]">
+        <p className="max-w-[796px] text-center text-[16px] my-4">
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to the coolest accessories, we have it all!
         </p>

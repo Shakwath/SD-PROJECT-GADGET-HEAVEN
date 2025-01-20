@@ -15,7 +15,7 @@ const Gadget = ({gadget}) => {
             {/* content  */}
             <div className="text-left  space-y-2">
                 <h2 className="card-title">{product_title}</h2>
-                <p>Price : ${price}</p>
+                <p>Price : ${price} </p>
                 <div className="card-actions">
                 <NavLink to={`/gadgets/${product_id}`}>
                     <button className="btn px-11 text-[#9538E2] text-lg bg-white rounded-full border-2 border-[#9538E2]">View Details</button>

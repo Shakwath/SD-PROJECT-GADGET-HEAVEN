@@ -1,33 +1,59 @@
 const Footer = () => {
+
+  const footerData = [
+    {
+      title: "Services",
+      links: [
+        "Product Support",
+        "Order Tracking",
+        "Shipping & Delivery",
+        "Returns",
+      ],
+    },
+    {
+      title: "Company",
+      links: ["About us", "Careers", "Contact"],
+    },
+    {
+      title: "Legal",
+      links: ["Terms of use", "Privacy policy", "Cookie policy"],
+    },
+  ];
+
   return (
     <div className="flex flex-col justify-center items-center mt-20">
-      <div class="text-center mb-8">
-          <h2 class="text-2xl font-bold text-black">Gadget Heaven</h2>
-          <p>
-            Leading the way in cutting-edge technology and innovation.
-          </p>
-        </div>
-    <footer className="footer bg-white text-black justify-around  border-t-[1px] pt-4">
-        <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Product Support</a>
-          <a className="link link-hover">Order Trac                                                              king</a>
-          <a className="link link-hover">Shipping & Delivery</a>
-          <a className="link link-hover">Returns</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover"></a>
-          <a className="link link-hover">Contact</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
-  </footer>
+      {/* Footer heading */}
+      <div className="text-center mb-8">
+        <h2 className="text-3xl font-bold text-indigo-600">Gadget Heaven</h2>
+        <p className="text-gray-600">
+          Leading the way in cutting-edge technology and innovation.
+        </p>
+      </div>
+
+      {/* Footer Navigation */}
+      <footer className="footer bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 text-white justify-around py-8 px-4 rounded-lg shadow-md">
+        {footerData.map((section, index) => (
+          <nav key={index} className="space-y-3">
+            <h6 className="text-lg font-semibold border-b-2 border-white pb-1">
+              {section.title}
+            </h6>
+            {section.links.map((link, idx) => (
+              <a
+                key={idx}
+                className="link link-hover text-gray-200 hover:text-yellow-300 transition duration-300 block"
+                href={`/${link.toLowerCase().replace(/\s+/g, "-")}`}
+              >
+                {link}
+              </a>
+            ))}
+          </nav>
+        ))}
+      </footer>
+
+      {/* Footer Bottom */}
+      <div className="text-center bg-gray-100 py-4">
+        <p>&copy; {new Date().getFullYear()} Gadget Heaven. All rights reserved.</p>
+      </div>
     </div>
   );
 };
