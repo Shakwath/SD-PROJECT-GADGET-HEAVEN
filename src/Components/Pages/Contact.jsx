@@ -28,7 +28,7 @@ export default function Contact() {
           <div>
             <div className="mb-4">
               <h3 className="text-xl font-semibold">Phone</h3>
-              <p>0160193421</p>
+              <p>01609503460</p>
             </div>
 
             <div className="mb-4">

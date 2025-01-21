@@ -91,7 +91,7 @@
       "product_id": 9,
       "product_title": "Wireless Noise-Cancelling Headphones",
       "product_image": "https://i.ibb.co.com/MSB2P5J/Wireless-Noise-Cancelling-Headphones.jpg",
-      "category": "Accessories",
+      "category": "Smart Watches",
       "price": 199.99,
       "description": "Premium wireless noise-cancelling headphones with long battery life and deep bass sound.",
       "Specification": ["Battery life: 30 hours", "Bluetooth 5.0", "Noise cancellation: Active", "Weight: 250g", "Color: Black"],
@@ -108,5 +108,116 @@
      "Specification": ["Battery life: 7 days", "Water resistance: 50m", "Connectivity: Bluetooth", "Color: Black, Blue, Pink"],
       "availability": true,
       "rating": 4.8
-    }
-]
+    },
+      {
+        "product_id": 11,
+        "product_title": "Sony WH-1000XM5 Headphones",
+        "product_image": "https://i.ibb.co.com/GRX4yQf/sony.jpg",
+        "category": "Accessories",
+        "price": 349.99,
+        "description": "Industry-leading noise-cancelling headphones with superior sound quality.",
+        "Specification": ["Battery life: 30 hours", "Bluetooth 5.0", "Noise cancellation: Adaptive", "Weight: 250g", "Color: Black"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 12,
+        "product_title": "OnePlus 9 Pro",
+        "product_image": "https://i.ibb.co.com/bPhknVh/one-plus.jpg",
+        "category": "Phones",
+        "price": 1069.99,
+        "description": "Flagship Android phone with Hasselblad camera and fast charging.",
+        "Specification": ["Snapdragon 888", "12GB RAM", "256GB Storage", "6.7-inch Fluid AMOLED Display", "5G"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 13,
+        "product_title": "Razer Blade 15 Gaming Laptop",
+        "product_image": "https://i.ibb.co.com/Nys5czc/Razer-Blade-15-Gaming-Laptop.jpg",
+        "category": "Laptops",
+        "price": 2300,
+        "description": "High-performance gaming laptop with NVIDIA RTX 3070 graphics.",
+        "Specification": ["Intel Core i7", "16GB RAM", "1TB SSD", "15.6-inch Full HD Display", "NVIDIA RTX 3070"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 14,
+        "product_title": "Apple Watch Ultra",
+        "product_image": "https://i.ibb.co.com/7zHgdTc/apple-watch.jpg",
+        "category": "Smart Watches",
+        "price": 799.99,
+        "description": "Premium smartwatch designed for extreme sports with a rugged titanium case and GPS tracking.",
+        "Specification": ["49mm Titanium case", "Always-on Retina display", "GPS + Cellular", "Water-resistant to 100 meters", "Battery life: 36 hours"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 15,
+        "product_title": "Xiaomi Mi 11 Ultra",
+        "product_image": "https://i.ibb.co.com/t1cQJ2R/Xiaomi-Mi-11-Ultra.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "High-performance smartphone with a 50MP triple camera system and Snapdragon 888.",
+        "Specification": ["Snapdragon 888", "12GB RAM", "256GB Storage", "6.81-inch AMOLED Display", "5G"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 16,
+        "product_title": "Lenovo ThinkPad X1 Carbon Gen 9",
+        "product_image": "https://i.ibb.co.com/JXgXsVg/Lenovo-ThinkPad-X1-Carbon.jpg",
+        "category": "Laptops",
+        "price": 2099.99,
+        "description": "A premium business laptop with Intel Core i7 and long battery life.",
+        "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "14-inch 4K Display", "Intel Iris Xe Graphics"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 17,
+        "product_title": "JBL Flip 6 Bluetooth Speaker",
+        "product_image": "https://i.ibb.co.com/4tqXQZX/JBL-Flip-6.jpg",
+        "category": "Accessories",
+        "price": 129.99,
+        "description": "Portable Bluetooth speaker with powerful sound and waterproof design.",
+        "Specification": ["Battery life: 12 hours", "Bluetooth 5.0", "Waterproof (IPX7)", "Weight: 550g", "Color: Blue"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 18,
+        "product_title": "Canon EOS R6 Camera",
+        "product_image": "https://i.ibb.co.com/jzFWwhR/Canon-EOS-R6.jpg",
+        "category": "Accessories",
+        "price": 2499.99,
+        "description": "Mirrorless camera with exceptional autofocus and 4K video recording.",
+        "Specification": ["20MP Full-frame sensor", "4K video recording", "10fps continuous shooting", "Dual Pixel CMOS AF"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 19,
+        "product_title": "GoPro HERO10 Black",
+        "product_image": "https://i.ibb.co.com/TYPLkgR/GoPro-HERO10.jpg",
+        "category": "Accessories",
+        "price": 499.99,
+        "description": "Action camera with 5.3K video and superior stabilization.",
+        "Specification": ["5.3K video recording", "HyperSmooth 4.0 stabilization", "Waterproof to 33ft", "Front display"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 20,
+        "product_title": "Nikon D850 DSLR Camera",
+        "product_image": "https://i.ibb.co.com/vpKgSy4/Nikon-D850.jpg",
+        "category": "Accessories",
+        "price": 2999.99,
+        "description": "High-performance DSLR with 45.7MP sensor and 4K UHD video recording.",
+        "Specification": ["45.7MP Full-frame sensor", "4K UHD video", "ISO range 64-25600", "9fps continuous shooting"],
+        "availability": true,
+        "rating": 4.8
+      }
+    ]
+  
