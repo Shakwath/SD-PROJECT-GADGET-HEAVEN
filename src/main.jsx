@@ -13,6 +13,8 @@ import Statistics from './components/Pages/Statistics.jsx';
 import Dashboard from './components/Pages/Dashboard.jsx';
 import Contact from './components/Pages/Contact.jsx';
 import Details from './components/Pages/Details.jsx';
+import Login from './components/Login/Login.jsx';
+import SignUp from './components/SignUp/SignUp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path : '/login',
+        element : <Login></Login>
+      },
+      {
+        path : '/signUp',
+        element: <SignUp></SignUp>
       },
     ]
       }

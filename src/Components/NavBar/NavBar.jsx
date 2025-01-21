@@ -8,12 +8,17 @@ const NavBar = () => {
   const [isSignup, setIsSignup] = useState(false);
 
   const links = (
-    <>
-      <li><NavLink to="/">Home</NavLink></li>
-      <li><NavLink to="/Statistics">Statistics</NavLink></li>
-      <li><NavLink to="/dashboard">Dashboard</NavLink></li>
-      <li><NavLink to="/contact">Contact</NavLink></li>
-    </>
+  <nav className="flex flex-row justify-between items-center">
+  <div className="flex items-start">
+    <li><NavLink to="/">Home</NavLink></li>
+    <li><NavLink to="/Statistics">Statistics</NavLink></li>
+    <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+    <li><NavLink to="/contact">Contact</NavLink></li>
+  </div>
+   <div className="items-end">
+    <li><NavLink to="/login">Login</NavLink></li>
+   </div>
+  </nav>
   );
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
@@ -35,7 +40,7 @@ const NavBar = () => {
         <a className="btn btn-ghost text-xl">Gadget Heaven</a>
       </div>
 
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-start hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           {links}
         </ul>
@@ -51,18 +56,17 @@ const NavBar = () => {
         </button>
 
         {/* Login/Signup Button */}
-        <button className="btn" onClick={toggleModal}> Login</button>
+        {/* <button className="btn" onClick={toggleModal}> Login</button> */}
       </div>
 
       {/* Modal */}
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <div className="w-full h-screen fixed top-0 left-0 z-50 bg-[#00000080] flex items-center justify-center">
           <div className="w-[100%] md:w-[60%] lg:w-[30%] bg-white rounded-lg p-6">
             <div className="w-full flex justify-end">
               <button className="text-xl" onClick={toggleModal}>x</button>
             </div>
 
-            {/* Form Content */}
             <div className="flex flex-col items-center">
               <h2 className="text-xl font-semibold mb-4">{isSignup ? 'Sign Up' : 'Login'}</h2>
 
@@ -90,7 +94,7 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
