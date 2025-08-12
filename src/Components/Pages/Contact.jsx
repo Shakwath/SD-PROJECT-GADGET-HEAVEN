@@ -17,7 +17,7 @@ export default function Contact() {
 
   
   useEffect(() => {
-    document.title = "Contact | Gadget Heavem";
+    document.title = "Contact | Gadget Heaven";
   }, []);
 
   return (

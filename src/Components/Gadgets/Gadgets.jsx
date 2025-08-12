@@ -12,7 +12,7 @@ const Gadgets = () => {
             .then(res => res.json())
             .then(data => {
                 setGadgets(data);
-                setFilteredGadgets(data); // Initially show all gadgets
+                setFilteredGadgets(data); //  show all gadgets
             });
     }, []);
 

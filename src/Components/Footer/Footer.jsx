@@ -21,7 +21,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center mt-20">
+    <div className="flex flex-col justify-center items-center mt-20 -mx-[145px]">
       {/* Footer heading */}
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-indigo-600">Gadget Heaven</h2>
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Navigation */}
-      <footer className="footer bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 text-white justify-around py-8 px-4 rounded-lg shadow-md">
+      <footer className="footer bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 text-white justify-around py-8 px-4  shadow-md">
         {footerData.map((section, index) => (
           <nav key={index} className="space-y-3">
             <h6 className="text-lg font-semibold border-b-2 border-white pb-1">
@@ -51,7 +51,7 @@ const Footer = () => {
       </footer>
 
       {/* Footer Bottom */}
-      <div className="text-center bg-gray-100 py-4">
+      <div className="text-center text-white bg-gray-700 py-4 w-full">
         <p>&copy; {new Date().getFullYear()} Gadget Heaven. All rights reserved.</p>
       </div>
     </div>

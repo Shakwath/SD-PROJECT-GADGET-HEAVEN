@@ -1,8 +1,8 @@
 import React from 'react';
 import { useEffect } from 'react';
-import image from '../../assets/image.png';
+import image from '../../assets/image3.webp';
 import imagesec from '../../assets/image2.png';
-import imagetr from '../../assets/image3.webp';
+import imagetr from '../../assets/image2.png';
 import {
   ComposedChart,
   Bar,
@@ -28,6 +28,7 @@ const data = [
     { name: "Samsung Galaxy S22", price: 850, total: 850, rating: 4.8 },
     { name: "HP Spectre x360", price: 1500, total: 1500, rating: 4.6 }
   ];
+
   const reviews = [
     {
       name: "Emily Watson",
@@ -105,6 +106,7 @@ const PriceVsProductChart = () => {
       <h2 className="text-3xl text-center font-bold text-[#9538E2] mb-8">
         What Our Customers Are Saying
       </h2>
+      {/* Review Site */}
       <div className="flex flex-col items-center space-y-6">
         {reviews.map((review, index) => (
           <div

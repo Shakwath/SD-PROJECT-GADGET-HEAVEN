@@ -64,7 +64,6 @@ export default function Dashboard() {
   const [updateTotal, setUpdateTotal] = useState(0);
   return (
     <>
-      {/* Khella shuru  */}
       <dialog id="my_modal_2" className="modal">
         <div className="modal-box card ">
           {console.log(total, "dd")}
@@ -161,7 +160,7 @@ export default function Dashboard() {
                     <img
                       src={item.product_image}
                       alt={item.product_title}
-                      className="w-[200px] h-[124px] rounded-md"
+                      className="w-[150px] h-[150px] rounded-md"
                     />
                   </figure>
                   <div className="card-body">
@@ -177,7 +176,7 @@ export default function Dashboard() {
                       <button
                         className="absolute top-2 right-0"
                         onClick={() => removeFromCart(index)}>
-                        <img src={close} className="w-[24px]" />
+                        <img src={close} className="w-[20px]" />
                       </button>
                     </div>
                   </div>
