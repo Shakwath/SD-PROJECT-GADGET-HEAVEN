@@ -1,8 +1,8 @@
 #README.md file
-  <h1>Assignment Name : A8:Gadget Haven </h1>
+  <h1>Assignment Name : Gadget Haven </h1>
   <br />
  <h2>Attach Live Website Link:</h2>
- https://sweet-squirrel-20ab15.netlify.app/
+
  <br />
 
  <h2>Attach Requirement Document Link:</h2>
